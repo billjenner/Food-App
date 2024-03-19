@@ -1,6 +1,4 @@
-# 1
-
-Food App - Vue 3, Vuetify, Vite, JSON Web Server, & PWA
+# Food App - Vue 3, Vuetify, Vite, JSON Web Server, & PWA
 
 ## PWA References
 - [PWA minimal setup](https://vite-pwa-org.netlify.app)
