@@ -12,9 +12,9 @@ Food App - Vue 3, Vuetify, Vite, JSON Web Server, & PWA
 - [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Code secpific to PWA
-vite.config.js > PWAManifest
-/public/various icons
-index.js various link references
+- vite.config.js > PWAManifest
+- /public/various icons
+- index.js various link references
 
 ## Project Setup
 
