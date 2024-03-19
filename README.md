@@ -1,19 +1,28 @@
 # 1
 
-This template should help get you started developing with Vue 3 in Vite.
+Food App - Vue 3, Vuetify, Vite, JSON Web Server, & PWA
 
-## Recommended IDE Setup
+## PWA References
+[PWA minimal setup](https://vite-pwa-org.netlify.app)
+[icon generator](https://favicon.io)
+[PWA step-by-step](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
+[PWA tutorial (Wildermuth)](https://wildermuth.com/2023/02/09/vite-plugin-for-progressive-web-apps/))
+[example PWA](https://www.youtube.com/watch?v=HExHPdX4Rb0)
+[https setup (missing port config)](https://www.youtube.com/watch?v=s2YxcPR_yhw)
+[Vite Configuration Reference](https://vitejs.dev/config/).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-
-[PWA minimal setup](https://vite-pwa-org.netlify.app/assets-generator/)
-
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Code secpific to PWA
+vite.config.js > PWAManifest
+/public/various icons
+index.js various link references
 
 ## Project Setup
 
+```sh
+npm install vite-plugin-pwa --save-dev
+```
+
+## Re-install
 ```sh
 npm install
 ```
@@ -28,6 +37,7 @@ npm run dev
 
 ```sh
 npm run build
+npm run preview
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
