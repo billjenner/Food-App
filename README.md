@@ -8,6 +8,7 @@
 - [example PWA](https://www.youtube.com/watch?v=HExHPdX4Rb0)
 - [https setup (missing port config)](https://www.youtube.com/watch?v=s2YxcPR_yhw)
 - [Vite Configuration Reference](https://vitejs.dev/config/).
+- [PWA offline](https://www.youtube.com/watch?v=h1EhsJNVpxY)
 
 ## Code secpific to PWA
 - vite.config.js > PWAManifest
@@ -43,3 +44,7 @@ npm run preview
 ```sh
 npm run lint
 ```
+
+
+#### Current Errors:
+https://stackoverflow.com/questions/78189743/pwa-configured-with-vite-plugin-pwa-errors-manifest-not-found
