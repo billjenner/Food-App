@@ -10,6 +10,11 @@
 - [Vite Configuration Reference](https://vitejs.dev/config/).
 - [PWA offline](https://www.youtube.com/watch?v=h1EhsJNVpxY)
 
+## TODO
+[Vue Tutorials](https://vuejs.org/tutorial/#step-5)
+[Vue Examples](https://vuejs.org/examples/#hello-world)
+
+
 ## Code secpific to PWA
 - vite.config.js > PWAManifest
 - /public/various icons

@@ -8,10 +8,10 @@ import vue from '@vitejs/plugin-vue'
 const PwaManifest = {
   registerType:'prompt',
   devOptions: { enabled: true },
-  includeAssests:['favicon.ico', "apple-touch-icon.png", "masked-icon.svg"],
+  includeAssests:[ '/', 'favicon.ico', "apple-touch-icon.png", "masked-icon.svg"],
   manifest:{
-    name:"React-vite-app",
-    short_name:"react-vite-app",
+    name:"Food-App",
+    short_name:"Food-App",
     description:"I am a simple vite app",
     icons:[{
       src: 'android-chrome-192x192.png',
@@ -45,12 +45,23 @@ const PwaManifest = {
   start_url:"/",
   orientation:'portrait'
   },
+  
 };
 
+const RegisterWS = {
+  injectRegister: 'auto'
+};
+
+
+// TODO: Stuff not working, register service worker (sw.js) in preview mode
+// URL: https://dev.to/adefam/pwa-in-vue-vite-53a3
+// URL: https://web.dev/learn/pwa/serving
 export default defineConfig({
   plugins: [		 
     vue(),
-    VitePWA(PwaManifest)
+    VitePWA(
+      PwaManifest
+    )
   ],
   resolve: {
     alias: {

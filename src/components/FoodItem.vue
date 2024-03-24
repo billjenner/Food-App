@@ -2,7 +2,7 @@
     <div v-on:click="countClicks">
         <h2>
             {{ foodName }}
-            <img src="@/assets/logo.png"  v-show="foodIsFavorite">
+            <img src="@/assets/favorite.svg"  v-show="foodIsFavorite">
         </h2>
         <p>{{ foodDesc }}</p>
         <button v-on:click="toggleFavorite">Favorite</button>

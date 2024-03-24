@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style>
+  #div {
+    color: rgb(47, 76, 106);
+  }
   #wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -66,15 +69,15 @@ export default {
   #app > div:hover {
     cursor: pointer;
   }
-    button {
-        background-color: blue; /* Green */
-        color: white;
-        padding: 8px 8px;
-        margin: 8px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
+  button {
+      background-color: blue; /* Green */
+      color: white;
+      padding: 8px 8px;
+      margin: 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
     border-radius: 8px;
   }
 </style>
