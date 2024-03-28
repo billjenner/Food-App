@@ -14,7 +14,10 @@ app.use(router)
 
 app.mount('#app')
 
+if (process.env.NODE_ENV === 'production')
+    console.log('production mode');
 
+    
 // if ('serviceWorker' in navigator) {
 //     window.addEventListener('load', () => {
 //       navigator.serviceWorker.register('/sw.js')

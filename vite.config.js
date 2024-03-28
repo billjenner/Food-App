@@ -1,9 +1,11 @@
-import { fileURLToPath, URL } from 'node:url'
-import { VitePWA } from 'vite-plugin-pwa'
-
-import { defineConfig } from 'vite'
+// Plugins
 import vue from '@vitejs/plugin-vue'
 
+
+// Utilities
+import { VitePWA } from 'vite-plugin-pwa'
+import { defineConfig } from 'vite'
+import { fileURLToPath, URL } from 'node:url'
 
 const PwaManifest = {
   registerType:'prompt',
@@ -46,10 +48,6 @@ const PwaManifest = {
   orientation:'portrait'
   },
   
-};
-
-const RegisterWS = {
-  injectRegister: 'auto'
 };
 
 
